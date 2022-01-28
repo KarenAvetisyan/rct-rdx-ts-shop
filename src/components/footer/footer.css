@@ -1,0 +1,10 @@
+.footer{
+    background: #F8F8F8;
+}
+
+.footer .container{
+    width: 1366px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}

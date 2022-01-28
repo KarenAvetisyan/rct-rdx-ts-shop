@@ -1,0 +1,96 @@
+
+header{
+    height: 82px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+header .logo{
+    flex-shrink: 0;
+    margin-right: 27px;
+}
+
+header .location{
+    display: flex;
+    align-items: center;
+}
+
+header .location img{
+    margin-right: 9px;
+}
+
+header .searchbar{
+    max-width: 468px;
+    width: 100%;
+    margin-right: 16px;
+    margin-left: 20px;
+    position: relative;
+}
+
+header .searchbar form{
+    max-width: 468px;
+    width: 100%;
+    display: inline-block;
+}
+
+header .searchbar input[type=text] {
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #F0F4FB;
+    border-radius: 36px;
+    padding-left: 20px;
+    padding-right: 128px;
+    font-size: 16px;
+    color: #727280;
+    font-family: var(--rr);
+}
+
+header .searchbar input[type=submit] {
+    width: 94px;
+    height: 42px;
+    background: #F0F4FB;
+    border-radius: 41px;
+    border: none;
+    font-size: 0;
+    background-image: url(../../images/search-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: center center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 4px;
+    bottom: 0;
+    margin: auto;
+}
+
+header .cart{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+header .cart span{
+    width: 31px;
+    height: 31px;
+    background-color: #fff;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    font-size: 14px;
+    text-align: center;
+    color: #2967FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-family: var(--rsb);
+}
+
+header .profile{
+    margin-left: 20px;
+}
